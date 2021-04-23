@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        SECRET_KEY: ${SECRET_KEY}
+        SECRET_KEY: "asdfasdflkju`1239-asdfasdf"
     env_file: .env
     volumes:
       - ./:/opt/webapp

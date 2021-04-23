@@ -1,4 +1,4 @@
-app_identifier("com.crowdbotics.tc_module_sandbox_25892Identifier") # The bundle identifier of your app
+app_identifier("com.crowdbotics.demoIdentifier") # The bundle identifier of your app
 apple_id("") # Your Apple email address
 
 itc_team_id("") # App Store Connect Team ID

@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'tc_module_sandbox_25892' do
+target 'demo' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +12,7 @@ target 'tc_module_sandbox_25892' do
     :hermes_enabled => false
   )
 
-  target 'tc_module_sandbox_25892Tests' do
+  target 'demoTests' do
     inherit! :complete
     # Pods for testing
   end

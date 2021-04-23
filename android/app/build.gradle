@@ -131,7 +131,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tc_module_sandbox_25892"
+        applicationId "com.demo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

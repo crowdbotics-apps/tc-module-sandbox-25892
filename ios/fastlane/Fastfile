@@ -16,8 +16,8 @@ fastlane_require('httparty')
 
 default_platform(:ios)
 
-app_name = 'tc_module_sandbox_25892Identifier'
-base_name = 'tc_module_sandbox_25892'
+app_name = 'demoIdentifier'
+base_name = 'demo'
 team_name = 'Crowdbotics Corporation'
 team_id = '6YKR59QXKM'
 filename = "#{base_name}.xcodeproj"
@@ -92,7 +92,7 @@ platform(:ios) do
     create_build
 
     upload_to_testflight(
-      email: 'ben@crowdbotics.com',
+      email: 'ProjectOwnerEmail',
       beta_app_description: "Beta version of #{app_name} uploaded by Crowdbotics"
     )
   end

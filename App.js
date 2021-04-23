@@ -8,6 +8,8 @@ import { configureStore, createReducer, combineReducers } from "@reduxjs/toolkit
 import { screens } from "@screens";
 import { hooks, slices, navigators, initialRoute } from "@modules";
 
+
+
 const Stack = createStackNavigator();
 
 const getNavigation = (modules, screens, initialRoute) => {
@@ -32,8 +34,8 @@ const getStore = slices => {
   const reducers = Object.fromEntries(slices.map(([name, slice]) => [name, slice.reducer]));
 
   const appState = {
-    name: "tc_module_sandbox_25892Identifier",
-    url: "https://tc_module_sandbox_25892Identifier.botics.co",
+    name: "demoIdentifier",
+    url: "https://demoIdentifier.botics.co",
     version: "1.0.0"
   }
 

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.tc_module_sandbox_25892">
+  package="com.demo">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
