@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'terms_and_conditions',
     'django_summernote',
 ]
 LOCAL_APPS = [
